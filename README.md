@@ -28,6 +28,7 @@ Nebulai-CPU 是一个用于 Nebulai Network 平台的自动化算力提交工具
   ]
 }
 ```
+- `accounts：支持多账号，每个账号需填写 token、jwt_token，如需代理可填写 proxy（支持 http/https/socks5）。`
 - `token`、`jwt_token` 可在 Nebulai 官网获取。
 - `proxy` 支持 http/https/socks5，若不需要可留空。
 
