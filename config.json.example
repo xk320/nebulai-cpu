@@ -1,0 +1,9 @@
+{
+  "accounts": [
+    {
+      "token": "authorization token",
+      "jwt_token": "token",
+      "proxy": "http://xxxxx:xxx"
+    }
+  ]
+}
