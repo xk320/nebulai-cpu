@@ -7,11 +7,6 @@ import (
 	"nebulai-cpu/logger"
 )
 
-type Config struct {
-	Token    string `json:"token"`
-	JwtToken string `json:"jwt_token"`
-}
-
 type AccountConfig struct {
 	Token    string `json:"token"`
 	JwtToken string `json:"jwt_token"`

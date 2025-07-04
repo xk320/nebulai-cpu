@@ -70,11 +70,3 @@ func AutoCalculateResult(seed1, seed2 int64, seedSize int, gpuEnabled bool) (flo
 	res1, res2 := CalculateResult(seed1, seed2, seedSize)
 	return res1, res2, nil
 }
-
-// 工具函数
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
